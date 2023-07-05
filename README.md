@@ -2,22 +2,19 @@
 
 Simple video game, inspired by Duck Hunt.
 
-## Installation
+## Dependencies
 
-Make sure you have [CSFML](https://www.sfml-dev.org/download/csfml/index.php) installed, and that you run your computer on linux.
+- [GCC](https://gcc.gnu.org/install/)
+- Make ([Linux](https://askubuntu.com/questions/161104/how-do-i-install-make), [Windows](https://stackoverflow.com/questions/32127524/how-to-install-and-use-make-in-windows))
+- [CSFML](https://www.sfml-dev.org/download/csfml/)
+
+## Build
 
 ```bash
-git clone https://github.com/Quentin-Desmettre/epitech-my_hunter.git
+make
 ```
 
-## Usage
-
+## Run
 ```bash
-cd epitech-my_hunter
-
-# compile
-make
-
-# play!
 ./my_hunter
 ```
